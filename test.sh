@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+sleep $(shuf -i 30-60 -n 1)
 RESULT=$((RANDOM % 2))
 
 if [ ${RESULT} -eq "0" ]; then
